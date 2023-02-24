@@ -4,13 +4,13 @@ This example shows how to configure XMC7000 MCWDT Subcounter0/1 and Subcounter2 
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-pdl-xmc7000-mcwdt)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4MTMiLCJTcGVjIE51bWJlciI6IjAwMi0zNDgxMyIsIkRvYyBUaXRsZSI6IlhNQzcwMDA6IE1DV0RUIGludGVycnVwdCIsInJpZCI6Im1pcWkiLCJEb2MgdmVyc2lvbiI6IjEuMC4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4MTMiLCJTcGVjIE51bWJlciI6IjAwMi0zNDgxMyIsIkRvYyBUaXRsZSI6IlhNQzcwMDA6IE1DV0RUIGludGVycnVwdCIsInJpZCI6Im1pcWkiLCJEb2MgdmVyc2lvbiI6IjEuMS4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
 
 ## Requirements
 
 - [ModusToolbox&trade; software](https://www.infineon.com/modustoolbox) v3.0 or later (tested with v3.0)
 - Programming language: C
-- Associated parts: [XMC7000 MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/)
+- Associated parts: [XMC7000 MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-industrial-microcontroller-based-on-arm-cortex-m/), [TRAVEO™ T2G body high MCU](https://www.infineon.com/cms/en/product/microcontroller/32-bit-traveo-t2g-arm-cortex-microcontroller/32-bit-traveo-t2g-arm-cortex-for-body/traveo-t2g-cyt4bf-series/)
 
 
 ## Supported toolchains (make variable 'TOOLCHAIN')
@@ -23,7 +23,7 @@ This example shows how to configure XMC7000 MCWDT Subcounter0/1 and Subcounter2 
 ## Supported kits (make variable 'TARGET')
 
 - [XMC7200 evaluation kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`) - Default value of `TARGET`
-
+- [TRAVEO™ T2G body high evaluation kit](https://www.infineon.com/KIT_T2G-B-H_EVK) (`KIT_T2G-B-H_EVK`)
 
 ## Hardware setup
 
@@ -208,6 +208,7 @@ Document title: *CE234813* – *XMC7000: MCWDT interrupt*
  Version | Description of change
  ------- | ---------------------
  1.0.0   | New code example
+ 1.1.0   | Added support for KIT_T2G-B-H_EVK
 <br />
 
 ---------------------------------------------------------

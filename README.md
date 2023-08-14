@@ -4,7 +4,7 @@ This example shows how to configure XMC7000 MCWDT Subcounter0/1 and Subcounter2 
 
 [View this README on GitHub.](https://github.com/Infineon/mtb-example-pdl-xmc7000-mcwdt)
 
-[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4MTMiLCJTcGVjIE51bWJlciI6IjAwMi0zNDgxMyIsIkRvYyBUaXRsZSI6IlhNQzcwMDA6IE1DV0RUIGludGVycnVwdCIsInJpZCI6Im1pcWkiLCJEb2MgdmVyc2lvbiI6IjEuMS4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
+[Provide feedback on this code example.](https://cypress.co1.qualtrics.com/jfe/form/SV_1NTns53sK2yiljn?Q_EED=eyJVbmlxdWUgRG9jIElkIjoiQ0UyMzQ4MTMiLCJTcGVjIE51bWJlciI6IjAwMi0zNDgxMyIsIkRvYyBUaXRsZSI6IlhNQzcwMDA6IE1DV0RUIGludGVycnVwdCIsInJpZCI6Im1pcWkiLCJEb2MgdmVyc2lvbiI6IjEuMi4wIiwiRG9jIExhbmd1YWdlIjoiRW5nbGlzaCIsIkRvYyBEaXZpc2lvbiI6Ik1DRCIsIkRvYyBCVSI6IklDVyIsIkRvYyBGYW1pbHkiOiJQU09DIn0=)
 
 ## Requirements
 
@@ -24,6 +24,7 @@ This example shows how to configure XMC7000 MCWDT Subcounter0/1 and Subcounter2 
 
 - [XMC7200 evaluation kit](https://www.infineon.com/KIT_XMC72_EVK) (`KIT_XMC72_EVK`) - Default value of `TARGET`
 - [TRAVEO™ T2G body high evaluation kit](https://www.infineon.com/KIT_T2G-B-H_EVK) (`KIT_T2G-B-H_EVK`)
+- [TRAVEO™ T2G body high evaluation kit](https://www.infineon.com/KIT_T2G-B-H_LITE) (`KIT_T2G-B-H_LITE`)
 
 ## Hardware setup
 
@@ -209,6 +210,7 @@ Document title: *CE234813* – *XMC7000: MCWDT interrupt*
  ------- | ---------------------
  1.0.0   | New code example
  1.1.0   | Added support for KIT_T2G-B-H_EVK
+ 1.2.0   | Added support for KIT_T2G-B-H_LITE
 <br />
 
 ---------------------------------------------------------

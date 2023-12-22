@@ -44,6 +44,8 @@
 #include "cybsp.h"
 #include "cy_retarget_io.h"
 
+
+
 /*******************************************************************************
 * Global Variables
 ********************************************************************************/
@@ -59,6 +61,8 @@ cy_stc_sysint_t mcwdt_irq_cfg =
 ********************************************************************************/
 void handle_error(void);
 void ISR_MCWDT_0(void);
+
+
 
 /*******************************************************************************
 * Function Name: main
@@ -129,7 +133,7 @@ int main(void)
             "XMC7000 MCU: Multi-Counter Watchdog Timer Example "
             "*************** \r\n\n");
 
-    printf("\r\nMCWDT initialization is complete. USE LED blinking \r\n");
+    printf("\r\nMCWDT initialization is complete. USER LED blinking \r\n");
 
     for(;;)
     {
@@ -162,12 +166,14 @@ void ISR_MCWDT_0(void)
     {
         Cy_GPIO_Inv(CYBSP_USER_LED2_PORT, CYBSP_USER_LED2_PIN);
     }
+#ifndef KIT_XMC71
     if(MCWDT_INTR_MASKED_CTR2_INT_Msk & masked)
     {
         Cy_GPIO_Inv(CYBSP_USER_LED3_PORT, CYBSP_USER_LED3_PIN);
     }
-
+#endif
     Cy_MCWDT_ClearInterrupt(MCWDT_0_HW, masked);
+
 }
 
 /*******************************************************************************
